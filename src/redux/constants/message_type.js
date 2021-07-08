@@ -1,0 +1,14 @@
+export const MessageType = {
+    DEFAULT: 0,
+    INSERT_SUCCESS : 1,
+    INSERT_FAIL: 2,
+    DELETE_SUCCESS: 3  
+}
+export const Types = {
+    FETCH_TODOS: 'FETCH_TODOS',
+    ADD_NEW_TODO: 'ADD_NEW_TODO',
+    DELETE_TODO: 'DELETE_TODO',
+    TOGGLE_TODO: 'TOGGLE_TODO',
+    EDIT_TODO:'EDIT_TODO',
+    SHOW_EDIT_TODO:'SHOW_EDIT_TODO'
+}
